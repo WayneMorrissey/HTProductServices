@@ -1,0 +1,5 @@
+C:\Users\wmorrissey1\Desktop\HTProductServices\HTPSSystem.WMorr.Data\bin\Debug\HTPSSystem.WMorr.Data.dll
+C:\Users\wmorrissey1\Desktop\HTProductServices\HTPSSystem.WMorr.Data\bin\Debug\HTPSSystem.WMorr.Data.pdb
+C:\Users\wmorrissey1\Desktop\HTProductServices\HTPSSystem.WMorr.Data\obj\Debug\HTPSSystem.WMorr.Data.csprojResolveAssemblyReference.cache
+C:\Users\wmorrissey1\Desktop\HTProductServices\HTPSSystem.WMorr.Data\obj\Debug\HTPSSystem.WMorr.Data.dll
+C:\Users\wmorrissey1\Desktop\HTProductServices\HTPSSystem.WMorr.Data\obj\Debug\HTPSSystem.WMorr.Data.pdb

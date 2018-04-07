@@ -1,0 +1,25 @@
+E:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise05\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.dll.config
+E:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise05\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.dll
+E:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise05\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.pdb
+E:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise05\HTProductServices\HTPSSystem.WMorr\bin\Debug\EntityFramework.dll
+E:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise05\HTProductServices\HTPSSystem.WMorr\bin\Debug\EntityFramework.SqlServer.dll
+E:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise05\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.Data.dll
+E:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise05\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.Data.pdb
+E:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise05\HTProductServices\HTPSSystem.WMorr\bin\Debug\EntityFramework.xml
+E:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise05\HTProductServices\HTPSSystem.WMorr\bin\Debug\EntityFramework.SqlServer.xml
+E:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise05\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.csprojResolveAssemblyReference.cache
+E:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise05\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.dll
+E:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise05\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.pdb
+D:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise06\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.dll.config
+D:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise06\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.dll
+D:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise06\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.pdb
+D:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise06\HTProductServices\HTPSSystem.WMorr\bin\Debug\EntityFramework.dll
+D:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise06\HTProductServices\HTPSSystem.WMorr\bin\Debug\EntityFramework.SqlServer.dll
+D:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise06\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.Data.dll
+D:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise06\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.Data.pdb
+D:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise06\HTProductServices\HTPSSystem.WMorr\bin\Debug\EntityFramework.xml
+D:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise06\HTProductServices\HTPSSystem.WMorr\bin\Debug\EntityFramework.SqlServer.xml
+D:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise06\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.csprojResolveAssemblyReference.cache
+D:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise06\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.dll
+D:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise06\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.pdb
+C:\Users\wmorrissey1\Desktop\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.csprojResolveAssemblyReference.cache
