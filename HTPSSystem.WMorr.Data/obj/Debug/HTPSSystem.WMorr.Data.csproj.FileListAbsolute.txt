@@ -3,3 +3,9 @@ C:\Users\wmorrissey1\Desktop\HTProductServices\HTPSSystem.WMorr.Data\bin\Debug\H
 C:\Users\wmorrissey1\Desktop\HTProductServices\HTPSSystem.WMorr.Data\obj\Debug\HTPSSystem.WMorr.Data.csprojResolveAssemblyReference.cache
 C:\Users\wmorrissey1\Desktop\HTProductServices\HTPSSystem.WMorr.Data\obj\Debug\HTPSSystem.WMorr.Data.dll
 C:\Users\wmorrissey1\Desktop\HTProductServices\HTPSSystem.WMorr.Data\obj\Debug\HTPSSystem.WMorr.Data.pdb
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr.Data\bin\Debug\HTPSSystem.WMorr.Data.dll
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr.Data\bin\Debug\HTPSSystem.WMorr.Data.pdb
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr.Data\obj\Debug\HTPSSystem.WMorr.Data.csproj.CoreCompileInputs.cache
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr.Data\obj\Debug\HTPSSystem.WMorr.Data.dll
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr.Data\obj\Debug\HTPSSystem.WMorr.Data.pdb
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr.Data\obj\Debug\HTPSSystem.WMorr.Data.csprojResolveAssemblyReference.cache

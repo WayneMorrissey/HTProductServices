@@ -17,7 +17,7 @@ namespace HTPSSystem.WMorr.Data.Entities
         DateTime? discontinuedDate;
 
         [Key]
-        public int PublicID { get; set; }
+        public int ProductID { get; set; }
         public string Name { get; set; }
         public string ModelNumber { get; set; }
         public bool Discontinued { get; set; }
