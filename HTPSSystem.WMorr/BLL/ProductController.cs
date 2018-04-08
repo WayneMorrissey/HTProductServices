@@ -29,5 +29,17 @@ namespace HTPSSystem.WMorr.BLL
                 return context.Products.Find(productid);
             }
         }
+
+        public int Product_Add(Product prod)
+        {
+            using (var context = new HTPSContext())
+            {
+                context.Products.Add(prod);
+
+                context.SaveChanges();
+
+                return prod.ProductID;
+            }
+        }
     }
 }

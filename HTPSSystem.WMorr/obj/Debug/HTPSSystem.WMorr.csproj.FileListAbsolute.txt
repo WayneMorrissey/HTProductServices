@@ -23,3 +23,15 @@ D:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise06\HTProductServices
 D:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise06\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.dll
 D:\Winter2018\CPSC1517 - Intro to App Dev\Exercises\Exercise06\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.pdb
 C:\Users\wmorrissey1\Desktop\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.csprojResolveAssemblyReference.cache
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.dll
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.pdb
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\bin\Debug\EntityFramework.dll
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.Data.dll
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.Data.pdb
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\bin\Debug\EntityFramework.xml
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.csprojResolveAssemblyReference.cache
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.csproj.CoreCompileInputs.cache
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.dll
+C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.pdb
