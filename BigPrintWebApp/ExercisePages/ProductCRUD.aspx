@@ -12,6 +12,10 @@
             <asp:Button ID="Search" runat="server" Text="Search" OnClick="Search_Click" CausesValidation="false"/>&nbsp;
             <asp:Button ID="Clear" runat="server" Text="Clear" width="67px" OnClick="Clear_Click" CausesValidation="false"/>&nbsp;
             <asp:Button ID="Add" runat="server" Text="Add" width="67px" OnClick="Add_Click" />&nbsp;
+            <asp:Button ID="Update" runat="server" Text="Update" width="67px" OnClick="Update_Click" />&nbsp;
+            <asp:Button ID="Delete" runat="server" Text="Delete" width="67px" OnClick="Delete_Click" />
+            <ajaxToolkit:ConfirmButtonExtender ID="Delete_ConfirmButtonExtender" runat="server" ConfirmText="Are you sure you want to delete the current product?" TargetControlID="Delete" />
+            &nbsp;
             <br /><br />
             <asp:DataList ID="MessageList" runat="server">
                 <ItemTemplate>

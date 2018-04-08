@@ -203,5 +203,173 @@ namespace BigPrintWebApp.ExercisePages
                 }
             }
         }
+
+        protected void Update_Click(object sender, EventArgs e)
+        {
+            if(IsValid)
+            {
+                if (string.IsNullOrEmpty(ProductID.Text))
+                {
+                    errmsgs.Add("Update requires you to search for a product first.");
+                }
+                else
+                {
+                    int temp = 0;
+                    if(!int.TryParse(ProductID.Text, out temp))
+                    {
+                        errmsgs.Add("ProductID is not valid.");
+                    }
+                }
+                if(errmsgs.Count > 0)
+                {
+                    LoadMessageDisplay(errmsgs, "alert alert-warning");
+                }
+                else
+                {
+                    try
+                    {
+                        Product prod = new Product();
+                        prod.ProductID = int.Parse(ProductID.Text);
+                        prod.Name = Name.Text;
+                        prod.ModelNumber = ModelNumber.Text;
+                        prod.Discontinued = Discontinued.Checked;
+                        if (string.IsNullOrEmpty(DiscontinuedDate.Text))
+                        {
+                            prod.DiscontinuedDate = null;
+                        }
+                        else
+                        {
+                            prod.DiscontinuedDate = DateTime.Parse(DiscontinuedDate.Text);
+                        }
+
+                        ProductController prodcont = new ProductController();
+                        int rowsAffected = prodcont.Product_Update(prod);
+
+                        if(rowsAffected > 0)
+                        {
+                            errmsgs.Add("Product " + prod.Name + " was added.");
+                            LoadMessageDisplay(errmsgs, "alert alert-success");
+
+                            ProductsDataBind();
+                        }
+                        else
+                        {
+                            errmsgs.Add("Product is no longer on file. Look up product again.");
+                            LoadMessageDisplay(errmsgs, "alert alert-warning");
+
+                            ProductsDataBind();
+                        }
+                    }
+                    catch (DbUpdateException ex)
+                    {
+                        UpdateException updateException = (UpdateException)ex.InnerException;
+                        if (updateException.InnerException != null)
+                        {
+                            errmsgs.Add(updateException.InnerException.Message.ToString());
+                        }
+                        else
+                        {
+                            errmsgs.Add(updateException.Message);
+                        }
+                        LoadMessageDisplay(errmsgs, "alert alert-danger");
+                    }
+                    catch (DbEntityValidationException ex)
+                    {
+                        foreach (var entityValidationErrors in ex.EntityValidationErrors)
+                        {
+                            foreach (var validationError in entityValidationErrors.ValidationErrors)
+                            {
+                                errmsgs.Add(validationError.ErrorMessage);
+                            }
+                        }
+                        LoadMessageDisplay(errmsgs, "alert alert-danger");
+                    }
+                    catch (Exception ex)
+                    {
+                        errmsgs.Add(GetInnerException(ex).ToString());
+                        LoadMessageDisplay(errmsgs, "alert alert-danger");
+                    }
+                }
+            }
+        }
+
+        protected void Delete_Click(object sender, EventArgs e)
+        {
+            if (IsValid)
+            {
+                if (string.IsNullOrEmpty(ProductID.Text))
+                {
+                    errmsgs.Add("Delete requires you to search for a product first.");
+                }
+                else
+                {
+                    int temp = 0;
+                    if (!int.TryParse(ProductID.Text, out temp))
+                    {
+                        errmsgs.Add("ProductID is not valid.");
+                    }
+                }
+                if (errmsgs.Count > 0)
+                {
+                    LoadMessageDisplay(errmsgs, "alert alert-warning");
+                }
+                else
+                {
+                    try
+                    {
+                        ProductController prodcont = new ProductController();
+                        Product prod = prodcont.Product_Find(int.Parse(ProductID.Text));
+                        
+                        int rowsAffected = prodcont.Product_Delete(prod);
+
+                        if (rowsAffected > 0)
+                        {
+                            errmsgs.Add("Product " + prod.Name + " was discontinued.");
+                            LoadMessageDisplay(errmsgs, "alert alert-success");
+
+                            ProductsDataBind();
+                            Discontinued.Checked = true;
+                            DiscontinuedDate.Text = string.Format("{0:dd/MM/yyyy}", DateTime.Today);
+                        }
+                        else
+                        {
+                            errmsgs.Add("Product is no longer on file. Look up product again.");
+                            LoadMessageDisplay(errmsgs, "alert alert-warning");
+
+                            ProductsDataBind();
+                        }
+                    }
+                    catch (DbUpdateException ex)
+                    {
+                        UpdateException updateException = (UpdateException)ex.InnerException;
+                        if (updateException.InnerException != null)
+                        {
+                            errmsgs.Add(updateException.InnerException.Message.ToString());
+                        }
+                        else
+                        {
+                            errmsgs.Add(updateException.Message);
+                        }
+                        LoadMessageDisplay(errmsgs, "alert alert-danger");
+                    }
+                    catch (DbEntityValidationException ex)
+                    {
+                        foreach (var entityValidationErrors in ex.EntityValidationErrors)
+                        {
+                            foreach (var validationError in entityValidationErrors.ValidationErrors)
+                            {
+                                errmsgs.Add(validationError.ErrorMessage);
+                            }
+                        }
+                        LoadMessageDisplay(errmsgs, "alert alert-danger");
+                    }
+                    catch (Exception ex)
+                    {
+                        errmsgs.Add(GetInnerException(ex).ToString());
+                        LoadMessageDisplay(errmsgs, "alert alert-danger");
+                    }
+                }
+            }
+        }
     }
 }

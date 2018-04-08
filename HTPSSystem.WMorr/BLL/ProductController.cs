@@ -30,6 +30,7 @@ namespace HTPSSystem.WMorr.BLL
             }
         }
 
+        // method for adding a product
         public int Product_Add(Product prod)
         {
             using (var context = new HTPSContext())
@@ -39,6 +40,29 @@ namespace HTPSSystem.WMorr.BLL
                 context.SaveChanges();
 
                 return prod.ProductID;
+            }
+        }
+
+        // method for updating a product
+        public int Product_Update(Product prod)
+        {
+            using(var context = new HTPSContext())
+            {
+                context.Entry(prod).State = System.Data.Entity.EntityState.Modified;
+
+                return context.SaveChanges();
+            }
+        }
+
+        public int Product_Delete(Product prod)
+        {
+            using(var context = new HTPSContext())
+            {
+                prod.Discontinued = true;
+                prod.DiscontinuedDate = DateTime.Today;
+                context.Entry(prod).State = System.Data.Entity.EntityState.Modified;
+
+                return context.SaveChanges();
             }
         }
     }
