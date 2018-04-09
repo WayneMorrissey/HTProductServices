@@ -18,8 +18,13 @@ namespace HTPSSystem.WMorr.Data.Entities
 
         [Key]
         public int ProductID { get; set; }
+        [Required(ErrorMessage = "A name is required")]
+        [StringLength(50, ErrorMessage = "Name is limited to 50 characters.")]
         public string Name { get; set; }
+        [Required(ErrorMessage = "A model number is required")]
+        [StringLength(15, ErrorMessage = "Model Number is limited to 50 characters.")]
         public string ModelNumber { get; set; }
+        [Required(ErrorMessage = "Discontinued is required")]
         public bool Discontinued { get; set; }
         public DateTime? DiscontinuedDate
         {
