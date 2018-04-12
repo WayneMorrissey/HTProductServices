@@ -247,7 +247,7 @@ namespace BigPrintWebApp.ExercisePages
 
                         if(rowsAffected > 0)
                         {
-                            errmsgs.Add("Product " + prod.Name + " was added.");
+                            errmsgs.Add("Product " + prod.Name + " was updated.");
                             LoadMessageDisplay(errmsgs, "alert alert-success");
 
                             ProductsDataBind();

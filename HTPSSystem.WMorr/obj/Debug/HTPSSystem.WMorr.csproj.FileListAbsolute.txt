@@ -35,3 +35,14 @@ C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTP
 C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.csproj.CoreCompileInputs.cache
 C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.dll
 C:\Users\Wayne\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.pdb
+C:\Users\wmorrissey1\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.dll
+C:\Users\wmorrissey1\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.pdb
+C:\Users\wmorrissey1\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\bin\Debug\EntityFramework.dll
+C:\Users\wmorrissey1\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\wmorrissey1\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.Data.dll
+C:\Users\wmorrissey1\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\bin\Debug\HTPSSystem.WMorr.Data.pdb
+C:\Users\wmorrissey1\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\bin\Debug\EntityFramework.xml
+C:\Users\wmorrissey1\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\wmorrissey1\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.csprojResolveAssemblyReference.cache
+C:\Users\wmorrissey1\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.dll
+C:\Users\wmorrissey1\Documents\GitHub\HTProductServices\HTPSSystem.WMorr\obj\Debug\HTPSSystem.WMorr.pdb
