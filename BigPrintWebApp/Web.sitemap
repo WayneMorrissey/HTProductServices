@@ -6,6 +6,8 @@
     <siteMapNode url="Contact.aspx" title="Contact"  description="" />
     <siteMapNode url="ExercisePages/Default.aspx" title="Exercises"  description="">
       <siteMapNode url="ExercisePages/ProductCRUD.aspx" title="ProductCRUD"  description="" />
+      <siteMapNode url="ExercisePages/ProductRegistration.aspx" title="Product Registration /w Code"  description="" />
+      <siteMapNode url="ExercisePages/ProductRegistrationODS.aspx" title="Product Registration /w ODS"  description="" />
     </siteMapNode>
   </siteMapNode>
 </siteMap>

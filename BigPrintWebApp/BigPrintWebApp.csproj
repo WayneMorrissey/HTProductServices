@@ -210,6 +210,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="ExercisePages\Default.aspx" />
     <Content Include="ExercisePages\ProductCRUD.aspx" />
+    <Content Include="ExercisePages\ProductregistrationODS.aspx" />
+    <Content Include="ExercisePages\ProductRegistrations.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -415,6 +417,20 @@
     </Compile>
     <Compile Include="ExercisePages\ProductCRUD.aspx.designer.cs">
       <DependentUpon>ProductCRUD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExercisePages\ProductregistrationODS.aspx.cs">
+      <DependentUpon>ProductregistrationODS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExercisePages\ProductregistrationODS.aspx.designer.cs">
+      <DependentUpon>ProductregistrationODS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExercisePages\ProductRegistrations.aspx.cs">
+      <DependentUpon>ProductRegistrations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExercisePages\ProductRegistrations.aspx.designer.cs">
+      <DependentUpon>ProductRegistrations.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

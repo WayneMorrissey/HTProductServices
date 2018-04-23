@@ -31,5 +31,11 @@ namespace HTPSSystem.WMorr.Data.Entities
             get { return discontinuedDate; }
             set { discontinuedDate = string.IsNullOrEmpty(value.ToString()) ? null : value; }
         }
+
+        [NotMapped]
+        public string DisplayName
+        {
+            get { return ModelNumber + " : " + Name; }
+        }
     }
 }

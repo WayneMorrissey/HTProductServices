@@ -7,12 +7,15 @@ using System.Threading.Tasks;
 #region Additional Namespaces
 using HTPSSystem.WMorr.Data.Entities;
 using HTPSSystem.WMorr.DAL;
+using System.ComponentModel;
 #endregion
 
 namespace HTPSSystem.WMorr.BLL
 {
+    [DataObject]
     public class ProductController
     {
+        [DataObjectMethod(DataObjectMethodType.Select, false)]
         public List<Product> Product_List()
         {
             using (var context = new HTPSContext())
